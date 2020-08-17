@@ -2,7 +2,7 @@
 
 The first part of the program involved implementing a multimap from a Left-Leaning Red-Black Tree (LLRB) The multimask was then used to store tasks for the CFS. 
 
-The program was written in C++11 in accordance to the Google C++ Style Guide. 
+The program was written in C++11 in accordance to the Google C++ Style Guide. It is run from the command line and must be given a file containing the tasks to be scheduled.
 
 NOTE: The code for this project has NOT been uploaded to GitHub publicly, as it was done for my data structures class. This was done to avoid future students from using my code as a violation of academic code conduct.
 
@@ -48,21 +48,21 @@ Showcases an understanding of:
 
 
 ## Example
-$ ./cfs_sched tasks1.dat 
-0 [0]: _
-1 [1]: A
-2 [3]: B
-3 [3]: C
-4 [3]: C
-5 [3]: A
-6 [3]: B
-7 [3]: B
-8 [3]: C*
-9 [2]: A*
-10 [1]: B*
+$ ./cfs_sched tasks1.dat </br>
+0 [0]: _ </br>
+1 [1]: A </br>
+2 [3]: B </br>
+3 [3]: C </br>
+4 [3]: C </br>
+5 [3]: A </br>
+6 [3]: B </br>
+7 [3]: B </br>
+8 [3]: C* </br>
+9 [2]: A* </br>
+10 [1]: B* </br>
 
-tasks1.dat
-A 1 3
-B 2 4
-C 2 3
+tasks1.dat </br>
+A 1 3 </br>
+B 2 4 </br>
+C 2 3 </br>
 
